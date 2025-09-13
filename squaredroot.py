@@ -2,7 +2,9 @@ import math
 import turtle as trtl
 
 # --- input number ---
-x = 49  # try 25, 36, 49, etc.
+x = input("enter a number: ") # try 25, 36, 49, etc.
+x = int(x)
+
 
 # --- compute square root as an integer grid size ---
 n = int(math.isqrt(x))
